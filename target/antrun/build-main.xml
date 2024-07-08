@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="maven-antrun-" default="main">
+  <target name="main">
+    <copy todir="C:\Users\user\eclipse-workspace\BookInventoryManagementSystem\target/classes/public">
+      <fileset dir="C:\Users\user\eclipse-workspace\BookInventoryManagementSystem/src/main/frontend/build" />
+    </copy>
+  </target>
+</project>
